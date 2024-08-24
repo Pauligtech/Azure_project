@@ -1,0 +1,72 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "pizza_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "order_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "pizza_name_id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "quantity",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "order_date",
+				"type": "date"
+			},
+			{
+				"name": "order_time",
+				"type": "time",
+				"scale": 7
+			},
+			{
+				"name": "unit_price",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "total_price",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "pizza_size",
+				"type": "nvarchar"
+			},
+			{
+				"name": "pizza_category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "pizza_ingredients",
+				"type": "nvarchar"
+			},
+			{
+				"name": "pizza_name",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "pizza_sales"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

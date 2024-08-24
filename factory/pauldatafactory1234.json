@@ -1,0 +1,9 @@
+{
+	"name": "pauldatafactory1234",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a010fa9d-f357-422d-a562-ec0e958421e6",
+		"tenantId": "c609a0ec-a5e3-4631-9686-192280bd9151"
+	}
+}
